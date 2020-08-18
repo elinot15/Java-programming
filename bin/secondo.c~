@@ -1,0 +1,9 @@
+#include <stdio.h>
+void main()
+{
+   int x,y, prodotto;
+   x=7
+   y=3
+   prodotto=x*y;
+   printf("il prodotto vale %d\n", prodotto);
+}

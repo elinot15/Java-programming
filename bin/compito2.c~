@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main()
+{
+  int x,y,h,area;
+  printf("base1=\n");
+  scanf("%d",&x);
+  printf("base2=\n");
+  scanf("%d", &y);
+  printf("altezza=\n");
+  scanf("%d", &h);
+  area=(x+y)*h/2;
+  printf("Area del trapezio è uguale a %d\n", area);
+}

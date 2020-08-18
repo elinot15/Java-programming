@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main()
+{
+  int x,y,h,area;
+  x=2;
+  y=3;
+  h=4;
+  area= (x+y)*h/2;
+  printf("base1= x\n");
+  printf("base2= y\n");
+  printf("altezza= h\n");
+  printf("Area del trapezio è uguale a %d/n", area);
+}

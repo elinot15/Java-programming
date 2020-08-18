@@ -1,0 +1,11 @@
+#include <stdio.h>
+void main()
+{
+  int x,y, prodotto;
+  printf("lato1= \n");
+  scanf("%d",&x);
+  printf("lato2= \n");
+  scanf("%d",&y);
+  prodotto= x*y;
+  printf("l'area del rettangolo %d\n", prodotto);
+}

@@ -1,0 +1,17 @@
+#include <stdio.h>
+void main ()
+
+{
+int x,y,r;
+printf("valore=");
+scanf("%d", &x);
+printf("valore=");
+scanf("%d", &y);
+r= x%y;
+if (r==0)
+   printf("multiplo\n");
+else
+   printf("non multiplo\n");
+
+
+}

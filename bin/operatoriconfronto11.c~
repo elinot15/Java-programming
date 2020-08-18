@@ -1,0 +1,26 @@
+#include <stdio.h>
+void main ()
+
+{
+int a,b,r,x,f;
+printf("quanto vuoi ritirare=");
+scanf("%d", &x);
+a=x/50;
+b=r/20;
+r=x%50;
+f= (a*50)+(b*20);
+
+if (r==0)
+        {
+         printf("banconote da 50: %d\n",a );
+         printf("somma erogata %d\n", f);
+        }
+else 
+    if(b==0)
+        {
+         printf("banconote da 50: %d\n", a);
+         printf("banconote da 20: %d\n",b );
+         printf("somma erogata %d\n", f);
+        }
+
+}

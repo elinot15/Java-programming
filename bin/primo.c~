@@ -1,0 +1,9 @@
+#include <stdio.h>
+void main()
+{
+   int x,y, somma;
+   x=3;
+   y=5;
+   somma=x+y;
+   printf("la somma vale %d\n", somma);
+}

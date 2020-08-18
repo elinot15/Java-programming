@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+#include<math.h>
+void main ()
+
+{
+float a,b,c, delta, s1, s2;
+printf("coefficienti=");
+scanf("%f", &a);
+scanf("%f", &b);
+scanf("%f", &c);
+delta= b*b-4*a*c;
+
+
+if (delta>0)
+      {
+        s1= ((-b+ sqrt (delta))/2*a);
+        s2= ((-b- sqrt (delta))/2*a);
+        printf("soluzione %f e %f\n", s1, s2 );
+       }
+else
+     if (delta==0)
+       {
+        s1= (-b/2*a);
+        printf("soluzione  %f\n", s1);
+       }
+else
+   printf("soluzione no\n" );
+}
+    
